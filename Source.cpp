@@ -162,7 +162,7 @@ int main()
 		}
 		for (int i = 0; i < 6; i++)
 		{
-			cout << "Enter your Guess Word #" << (i + 1) << ": " << guessingWord;
+			cout << "Enter your Guess Word #" << (i + 1) << ": ";
 			cin >> userGuess;
 			for (int z = 0; z < 5; z++)
 			{
